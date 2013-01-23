@@ -1,6 +1,8 @@
 .eunit
 deps
+ebin
 priv
 *.o
 *.beam
 *.plt
+rel/esp_example
