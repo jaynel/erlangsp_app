@@ -1,0 +1,10 @@
+{application, esp_example,
+ [
+  {description, "Example app using erlangsp"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {included_applications, [erlangsp]},
+  {mod, { esp_example, [] }},
+  {env, []}
+ ]}.
